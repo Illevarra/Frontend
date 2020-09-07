@@ -1,0 +1,503 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #f4f2f2;
+	font-family: Myriad Pro, regular;
+}
+
+li{
+	list-style-type: none;
+}
+
+a{
+	text-decoration:none;
+	color: #ffffff;
+}
+
+p{
+	margin: 0;
+	padding: 0;
+}
+
+ul>a{
+	color: #ffffff;
+}
+
+main{
+	margin: 2%;
+}
+
+.container{
+	max-width: 1545px;
+	width: 100%;
+	margin: auto;
+    padding: auto;
+    display: block;
+
+}
+
+.top_menu{
+	background-color: #00aa4b;
+	color: #ffffff;
+    width: 100%;
+    font-family: Myriad Pro, regular;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+.menu{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: row;
+	height: 48px;
+	
+
+}
+
+.element_items{
+	margin-right: 20px;
+	line-height: 21px;
+}
+
+
+.elements{
+	display: flex;
+}
+
+.search_conteiner{
+	background-color: #e8e7e7;
+}
+
+.search_conteiner_content{
+	background-color: #e8e7e7;
+	height: 65px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0;
+	padding: 0;
+}
+
+#search{
+	height: 35px;
+    border: none;
+    width: 500px;
+}
+
+.search_all{
+	color: #777777;
+	font-size: 16px;
+	font-family: Myriad Pro, regular;
+	font-weight: 100;
+	height: 35px;
+	border-radius: 5px 0 0 5px;
+	background-color: #f1f1f1;
+	border: 8px solid #f1f1f1;
+}
+
+.search_button{
+	width: 45px;
+	height: 35px;
+	border: none; 
+	border-radius: 0 5px 5px 0;
+	background-color: #ffaf2d;
+
+}
+
+.search{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+
+.categories_container{
+	background-color: #ffffff;
+}
+
+.categories{
+	height: 120px;
+	background-color: #ffffff;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-family: Myriad Pro, Light SemiExtended;
+
+}
+
+.categories>a{
+	color: #343434;	
+
+}
+
+.targeted_offers{
+	flex: 1;
+	background-color: #ffffff;
+	font-weight: 100;
+	font-family: Myriad Pro, Light SemiExtended;
+	margin-right: 20px;
+}
+
+.targeted_offers>ul>li>a{
+	color: #303030;
+}
+
+
+.thermal, .refrigeration, .electromechanical, .dishwasher, .bakery, .distribution_lines, .neutral, .fast_food, .halls, .auxiliary, .shops{
+	text-align: center;
+} 
+
+.main_container{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.left_menu{
+    line-height: 45px;
+    border-bottom: solid 1px #ededed;
+
+}
+
+#title_left_menu{
+	color: #ffaf2d; 
+	font-size: 24px;
+}
+
+.targeted_offers>span{
+	height: 45px;
+}
+
+.portfolio{
+	background-color: #232323;
+	color: #f3f1f1;
+	display: flex;
+	
+	flex: 2;
+}
+
+
+.portfolio_text{
+	margin-left: 65px;
+	flex: 1;
+}
+
+.portfolio_text_item_1{
+	font-family: Myriad Pro, Light SemiExtended;
+	font-size: 16px;
+	color: #777777;
+	font-weight: 100;
+	margin-top: 60px;
+	margin-bottom: 70px;
+}
+
+.portfolio_text_item_2{
+	font-family: Myriad Pro, Regular;
+	font-size: 40px;
+	color: #ffffff;
+	margin-bottom: 25px;
+	font-weight: 400;
+}
+
+.portfolio_text_item_3{
+	font-family: Myriad Pro, Light SemiExtended;
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: 100;
+	margin-bottom: 65px;
+}
+
+.portfolio_text_item_4{
+	padding: 10px 20px 10px 20px; 
+	border-radius: 50px;
+	border: none;
+	font-family: Myriad Pro, Regular;
+	font-size: 18px;
+	color: #ffffff;
+	font-weight: 100;
+	background-color: #ffaf2d;
+}
+
+.portfolio_image{
+	flex: 1;
+	margin-top: 70px;
+}
+
+
+.sale{
+	flex: 1;
+	margin-left: 20px;
+}
+
+
+.sale_block{
+	background-color: #ffffff;
+	border: 2px solid #ffaf2d;
+	font-size: 16px;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.sale_block_content{
+	margin-left: 30px;
+}
+
+.gift_logo{
+	margin-top: 215px;
+	margin-bottom: 10px;
+}
+
+.sale_text{
+	font-size: 16px;
+}
+
+.sale_text_item_1{
+	font-size: 18px;
+}
+
+.sale_text_item_2{
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-size: 40px;
+
+}
+
+.link{
+	font-weight: 100;
+	color: #ffaf2d;
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.brands{
+	background-color: #ffffff;
+	width: 100%;	
+}
+
+.brands_items{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;	
+	font-family: Myriad Pro, Regular;
+	font-size: 18px;
+}
+
+.brands_items_1{
+	color: #232323;
+	font-size: 18px;
+	font-weight: 100;
+}
+
+.brands_items_all{
+	margin-top: 30px;
+	margin-bottom: 30px;	
+}
+
+#news{
+	font-size: 40px;
+	margin-bottom: 48px;
+}
+
+.all_news{
+	display: flex;
+	margin-left: 70px;
+	margin-right: 70px;
+
+}
+
+.top_news{
+	flex: 1;
+}
+
+.title_news{
+	font-size: 24px;
+	font-family: Myriad Pro, Regular;
+	margin-top: 60px;
+}
+
+.description_new{
+	font-family: Myriad Pro, Light SemiExtended;
+	font-weight: 100;
+	font-size: 16px;
+	width: 489px;
+	margin-top: 25px;
+	margin-bottom: 50px;
+}
+
+.other_news{
+	display: flex;
+	flex-direction: column;
+	flex: 2;
+	margin-top: 88px;
+	margin-left: 106px;
+}
+
+.news_button{
+	font-family: Myriad Pro, Light SemiExtended;
+	font-size: 16px;
+	font-weight: 100;
+	border-radius: 50px;
+	border: 1px solid #282828;
+	background-color: #f4f2f2;
+	padding: 10px 20px 10px 20px;
+
+}
+
+.other_news_item{
+	margin-bottom: 45px;
+	display: flex;
+}
+
+.title_other_news{
+	font-size: 24px;	
+	font-family: Myriad Pro, Regular;
+	font-weight: 100;
+	margin-left: 20px;
+}
+
+.other_news_text{
+}
+
+.description_other_news{
+	font-family: Myriad Pro, Light SemiExtended;
+	font-size: 16px;
+	font-weight: 100;
+	padding-left: 23px;
+	margin-top: 23px;
+}
+
+.manufacturer_news{
+	flex: 1;
+}
+
+.title_recommendation_item1{
+	margin-top: 170px;
+	margin-bottom: 30px;
+	font-family: Myriad Pro, regular;
+	font-size: 40px;
+	text-align: center;
+}
+
+.title_recommendation_item2{
+	font-family: Myriad Pro, Light SemiExtended;
+	font-weight: 100;
+	font-size: 16px;
+	text-align: center;
+	margin-bottom: 65px;
+}
+
+.recommendation_container{
+	display: flex;
+}
+
+.recommendation_container_items{
+	margin-left: 15px;
+}
+
+.recommendation{
+	margin-bottom: 170px;
+}
+
+.seo{
+	margin-bottom: 170px;
+}
+
+.title_seo{
+	font-size: 40px;
+	font-family: Myriad Pro, Regular;
+	margin-bottom: 20px;
+}
+
+.title_seo_2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.seo_description_item{
+	font-size: 16px;
+	font-family: Myriad Pro, Light SemiExtended;
+	font-weight: 100;
+}
+
+.title_seo_item{
+	font-size: 40px;	
+	font-family: Myriad Pro, Light SemiExtended;
+	font-weight: 100;
+}
+
+.seo_container{
+	display: flex;
+}
+
+.seo_button_item{
+	border-radius: 50%;
+	font-family: Myriad Pro, Light SemiExtended;
+	font-size: 24px;
+	font-weight: 100;
+	background-color: #232323;
+	color: #ffffff;
+	border: none;
+	text-align: center;
+}
+
+.seo_button{
+	margin-top: 45px;
+}
+
+.seo_text{
+	flex: 1;
+	margin-right: 270px;
+}
+
+.seo_image{
+	flex: 1;	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.footer_menu{
+	background-color: #232323;
+	color: #ffffff;
+	font-family: Myriad Pro, Light SemiExtended;
+	font-size: 16px;
+}
+
+.footer_menu_items{	
+	font-weight: 100;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.title_footer_menu_items{
+	padding-bottom: 40px;
+	color: #777777;
+}
+
+.footer{
+	background-color: #191919;
+	
+}
+
+.footer_item{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footer_logo{
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.footer_text{
+	color: #ffffff;
+	font-family: Myriad Pro, Light SemiExtended;
+	font-size: 18px;
+	font-weight: 100;	 
+}
